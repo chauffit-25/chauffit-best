@@ -1,0 +1,33 @@
+# Robots.txt for Chauffit
+# https://www.chauffit.in
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.chauffit.in/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /404
+Disallow: /500
+
+# Allow all crawlers for main content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
